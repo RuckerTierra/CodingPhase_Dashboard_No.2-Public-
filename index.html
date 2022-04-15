@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobGo | Dashboard</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/02ea88b81a.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- regular css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 id="logo">JobGo</h1>
+        <ul id="navigation">
+          <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="#"><i class="fas fa-clipboard-list"></i> Applied History</a></li> 
+          <li><a href="#"><i class="fa-solid fa-bookmark"></i> Jobs Bookmarks</a></li>
+          <li><a href="#"><i class="fa-solid fa-calendar-days"></i> Interview Schedule</a></li>
+          <li><a href=""><i class="fa-solid fa-user"></i> Profile</a></li>
+          <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <!-- search bar -->
+        <form id="searchForm" class="nosubmit">
+          <input class="nosubmit" type="search" placeholder="Search...">
+          <!-- <button type="submit">Search</button> -->
+        </form>
+
+        <div id="welcomeDiv">
+          <h2 id="dashboardTitle">Dashboard</h2>
+          <h3 id="welcomeTitle">Welcome to JobGo job seeker dashboard</h3>
+        </div>
+
+        <!-- job seeker info -->
+        <div id="dashboardDiv">
+          <div class="dashboardCard">
+            <img id="dashboardImg" src="images/simu-liu_stock-photo.png" alt="image of a white man in a business suit">
+            <h3>Levi John</h3>
+            <p>Full Stack Developer</p>
+            <hr>
+            <table id="previousEducation">
+              <tr>
+                <td>Previous</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Education</td>
+                <td>MC University</td>
+              </tr>
+            </table>
+          </div>
+
+          <!-- interview Schedule -->
+          <div id="interview" class="dashboardCard">
+            <h4 id="interviewSchedule">Interview Schedule</h4> 
+            <h5>October 31, 2021</h5>
+            <p></p>
+          <p></p>
+          </div>
+
+          <!-- Applying Status -->
+          <div id="applyingStatus" class="dashboardCard">
+            <img src="images/basic-charts-pie-chart.png" alt="image of a pie chart">
+            
+          </div>
+        </div>
+        
+        <!--companies applied to -->
+        <div id="companyDiv">
+          <!-- <div></div> -->
+
+          <table id="companyTable">
+            <thead>
+              <tr>
+                <th>Company</th>
+                <th>Job</th>
+                <th>Application Close</th>
+                <th>Location</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><i class="fa-solid fa-circle-h"></i> Disney</td>
+                <td>Front End Developer</td>
+                <td>Jan 11, 2022</td>
+                <td>Orlando, FL</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-circle-h"></i> Amazon</td>
+                <td>Web Developer</td>
+                <td>May 13, 2022</td>
+                <td>Seattle, WA</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-circle-h"></i> Netflix</td>
+                <td>Software Engineer</td>
+                <td>June 17, 2022</td>
+                <td>Los Gatos, CA</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-circle-h"></i> Louis Vuitton</td>
+                <td>Web Content Editor</td>
+                <td>July 7, 2022</td>
+                <td>Paris, France</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-circle-h"></i> Apple</td>
+                <td>C# Developer</td>
+                <td>Sept 21, 2022</td>
+                <td>New York, NY</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-circle-h"></i> JPMorgan Chase</td>
+                <td>Full Stack Developer</td>
+                <td> October 31, 2022</td>
+                <td>New York, NY</td>
+                <td>...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Copyright -->
+      <h6>Copyright JobGo © 2022</h6>
+    </footer>
+  </body>
+</html>
